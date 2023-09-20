@@ -70,7 +70,7 @@ public class Player : MonoBehaviour
 
     IEnumerator destroyObj()
     {
-        WaitForSeconds wait = new(1f);
+        WaitForSeconds wait = new(2f);
         while (true)
         {
             yield return wait;
