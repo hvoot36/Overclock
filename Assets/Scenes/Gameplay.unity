@@ -6718,6 +6718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movementForce: 10
   shotOrigin: {fileID: 760920712}
+  invertedPosition: {x: -0.654, y: -0.136, z: 0.1017688}
 --- !u!114 &1175033241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11911,9 +11912,9 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6079043643374722133, guid: 273a40d7790e31a43bd9bcc2fd36d24e, type: 3}
-      propertyPath: radius
-      value: 2
-      objectReference: {fileID: 0}
+      propertyPath: targetGameObject
+      value: 
+      objectReference: {fileID: 1175033235}
     - target: {fileID: 6379377150119082048, guid: 273a40d7790e31a43bd9bcc2fd36d24e, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -11961,10 +11962,6 @@ PrefabInstance:
     - target: {fileID: 7598148210515435707, guid: 273a40d7790e31a43bd9bcc2fd36d24e, type: 3}
       propertyPath: m_Name
       value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 7598148210515435707, guid: 273a40d7790e31a43bd9bcc2fd36d24e, type: 3}
-      propertyPath: m_Layer
-      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -14,6 +14,8 @@ public class Projectile : MonoBehaviour
 
     public float distance;
 
+    RaycastHit2D hitInformation;
+
     private void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
@@ -32,13 +34,14 @@ public class Projectile : MonoBehaviour
 
         if (sr.flipX)
         {
-            RaycastHit2D hitInformation = Physics2D.Raycast(transform.position, transform.right, distance);
+            RaycastHit2D hitInformation = Physics2D.Raycast(transform.position, transform.right * -1, distance);
             if (hitInformation.collider != null)
             {
-                Debug.Log(hitInformation);
+
                 if (hitInformation.collider.CompareTag("Enemy"))
                 {
-                    Destroy(hitInformation.collider.gameObject);
+                    hitInformation.collider.gameObject.GetComponent<Animator>().SetBool("death", true);
+                    StartCoroutine(destroyEnemy());
                 }
 
                 DestroyProjectile();
@@ -51,16 +54,27 @@ public class Projectile : MonoBehaviour
             RaycastHit2D hitInformation = Physics2D.Raycast(transform.position, transform.right, distance);
             if(hitInformation.collider != null)
             {
-                Debug.Log(hitInformation);
+                
                 if(hitInformation.collider.CompareTag("Enemy"))
                 {
-                    Destroy(hitInformation.collider.gameObject);
+                    hitInformation.collider.gameObject.GetComponent<Animator>().SetBool("death", true);
+                    StartCoroutine(destroyEnemy());
                 }
 
                 DestroyProjectile();
             }
 
             transform.Translate(speed * Time.deltaTime * Vector2.right);
+        }
+
+        IEnumerator destroyEnemy()
+        {
+            WaitForSeconds wait = new(1f);
+            while (true)
+            {
+                yield return wait;
+                Destroy(hitInformation.collider.gameObject);
+            }
         }
         
         

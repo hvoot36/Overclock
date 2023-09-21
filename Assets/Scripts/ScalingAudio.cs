@@ -17,8 +17,7 @@ public class ScalingAudio : MonoBehaviour
 
     TMP_Text textBox;
 
-    public float loudnessSensitivity = 1000;
-    public float threshold = 0.1f;
+    public float loudnessSensitivity = 100;
     void Start()
     {
         textBox = GetComponent<TMP_Text>();
