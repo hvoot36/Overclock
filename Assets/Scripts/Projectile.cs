@@ -14,7 +14,6 @@ public class Projectile : MonoBehaviour
 
     public float distance;
 
-    RaycastHit2D hitInformation;
 
     private void Awake()
     {

@@ -6738,7 +6738,7 @@ MonoBehaviour:
   projectileOrigin: {fileID: 760920713}
   origin: {fileID: 760920712}
   startTimeBetweenShots: 0.5
-  minLoudnessValue: 0
+  minLoudnessValue: 10
 --- !u!1 &1190780050
 GameObject:
   m_ObjectHideFlags: 0
