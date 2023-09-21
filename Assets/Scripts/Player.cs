@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
 
     public GameObject shotOrigin;
     public Vector3 invertedPosition = new Vector3(-0.654f, -0.136f, 0.1017688f);
-    public Vector3 rightPosition = new Vector3(-0.654f, -0.136f, 0.1017688f);
+    private Vector3 rightPosition = new Vector3(0.654f, -0.136f, 0.1017688f);
 
     private string WALK_ANIMATION = "walk";
 
@@ -59,9 +59,11 @@ public class Player : MonoBehaviour
     {
         if (movementX > 0 || movementY > 0)
         {
+            Debug.Log(rightPosition);
             animator.SetBool(WALK_ANIMATION, true);
             sr.flipX = false;
             shotOrigin.transform.position = transform.position + rightPosition;
+            Debug.Log(rightPosition);
         }
         else if (movementX < 0 || movementY < 0)
         {
