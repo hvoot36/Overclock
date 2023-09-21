@@ -5,9 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     // Start is called before the first frame update
-
-    [SerializeField]
-    private float radius = 10f;
+    public float radius;
     [SerializeField]
     private float angle = 15;
 
@@ -50,8 +48,7 @@ public class Enemy : MonoBehaviour
                 {
                     CanSeePlayer = true;
                     Debug.Log("Can see player.");
-                    Player obj = targetGameObject.GetComponent<Player>();
-                    obj.LoseCondition();
+                    targetGameObject.gameObject.GetComponent<Player>().LoseCondition();
                 }
                     
                 else
