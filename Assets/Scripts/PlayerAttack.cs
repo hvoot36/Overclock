@@ -53,12 +53,12 @@ public class PlayerAttack : MonoBehaviour
             {
                 projectileSpriteRenderer.flipX = false;
                 
-                if (Mathf.RoundToInt(detector.loudnessValue * 1000) > 40)
+                if (Mathf.RoundToInt(detector.loudnessValue * 1000) > minLoudnessValue)
                 {
                     GameObject currentProjectile = Instantiate(projectile, projectileOrigin.position, transform.rotation);
                     
                     currentProjectile.transform.parent = null;
-                    currentProjectile.GetComponent<Projectile>().speed *= ((Mathf.RoundToInt(detector.loudnessValue * 100) - minLoudnessValue) / (100 - minLoudnessValue) + 1) * 0.8f;
+                    currentProjectile.GetComponent<Projectile>().speed *= ((Mathf.RoundToInt(detector.loudnessValue * 100) - minLoudnessValue) / minLoudnessValue + 1);
                     timeBetweenShots = startTimeBetweenShots;
                 }
             }
@@ -67,12 +67,12 @@ public class PlayerAttack : MonoBehaviour
                 
                 projectileSpriteRenderer.flipX = true;
                 
-                if (Mathf.RoundToInt(detector.loudnessValue * 1000) > 30)
+                if (Mathf.RoundToInt(detector.loudnessValue * 1000) > minLoudnessValue)
                 {
                     GameObject currentProjectile = Instantiate(projectile, projectileOrigin.position, transform.rotation);
 
                     currentProjectile.transform.parent = null;
-                    currentProjectile.GetComponent<Projectile>().speed *= ((Mathf.RoundToInt(detector.loudnessValue * 100) - minLoudnessValue) / (100 - minLoudnessValue) + 1) * 0.8f;
+                    currentProjectile.GetComponent<Projectile>().speed *= ((Mathf.RoundToInt(detector.loudnessValue * 100) - minLoudnessValue) / minLoudnessValue + 1);
                     timeBetweenShots = startTimeBetweenShots;
                 }
             }
