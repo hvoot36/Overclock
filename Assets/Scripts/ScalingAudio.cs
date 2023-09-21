@@ -31,6 +31,6 @@ public class ScalingAudio : MonoBehaviour
 
         
 
-        textBox.text = "Audio Level: " + Mathf.RoundToInt(loudness).ToString();
+        textBox.text = "Audio level: " + Mathf.RoundToInt(loudness).ToString();
     }
 }
