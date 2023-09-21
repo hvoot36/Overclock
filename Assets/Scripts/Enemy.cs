@@ -1,7 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
+using static UnityEngine.RuleTile.TilingRuleOutput;
 
 public class Enemy : MonoBehaviour
 {
@@ -39,7 +42,7 @@ public class Enemy : MonoBehaviour
 
         if (rangeCheck.Length > 0 )
         {
-            Transform target = rangeCheck[0].transform;
+            UnityEngine.Transform target = rangeCheck[0].transform;
             Vector2 directionToTarget = (target.position - transform.position).normalized;
             if (Vector2.Angle(transform.right * -1, directionToTarget) < angle / 2)
             {
@@ -63,11 +66,14 @@ public class Enemy : MonoBehaviour
             CanSeePlayer = false;
         }
     }
+    
 
+
+    #if UNITY_EDITOR
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.yellow;
-        UnityEditor.Handles.DrawWireDisc(transform.position, Vector3.forward, radius);
+        Handles.DrawWireDisc(transform.position, Vector3.forward, radius);
 
         Vector3 angle01 = DirectionFromAngle(-transform.eulerAngles.z, -angle / 2);
         Vector3 angle02 = DirectionFromAngle(transform.eulerAngles.z, angle / 2);
@@ -82,8 +88,10 @@ public class Enemy : MonoBehaviour
             Gizmos.DrawLine(transform.position, targetGameObject.transform.position);
         }
     }
+    #endif
 
-    private Vector2 DirectionFromAngle(float eulerY, float angleInDegrees)
+
+private Vector2 DirectionFromAngle(float eulerY, float angleInDegrees)
     {
         angleInDegrees += eulerY;
 
