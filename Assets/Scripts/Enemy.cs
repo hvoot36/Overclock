@@ -49,7 +49,6 @@ public class Enemy : MonoBehaviour
                 if (!Physics2D.Raycast(transform.position, directionToTarget, distanceToTarget, obstructionLayer))
                 {
                     CanSeePlayer = true;
-                    Debug.Log("Can see player.");
                 }
                     
                 else

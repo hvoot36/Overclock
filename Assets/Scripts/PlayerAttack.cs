@@ -19,6 +19,8 @@ public class PlayerAttack : MonoBehaviour
     public GameObject projectile;
     public Transform projectileOrigin;
 
+    public GameObject origin;
+
     private float timeBetweenShots;
     public float startTimeBetweenShots;
 
@@ -30,7 +32,6 @@ public class PlayerAttack : MonoBehaviour
     }
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -50,18 +51,27 @@ public class PlayerAttack : MonoBehaviour
             if (lookingRight)
             {
                 projectileSpriteRenderer.flipX = false;
-                if (Input.GetMouseButtonDown(0))
+                //origin.transform.Translate(-origin.transform.position.x, origin.transform.position.y, origin.transform.position.z);
+                if (Mathf.RoundToInt(detector.loudnessValue * 1000) > 40)
                 {
-                    Instantiate(projectile, projectileOrigin.position, transform.rotation);
+                    GameObject currentProjectile = Instantiate(projectile, projectileOrigin.position, transform.rotation);
+                    
+                    currentProjectile.transform.parent = null;
+                    currentProjectile.GetComponent<Projectile>().speed *= ((Mathf.RoundToInt(detector.loudnessValue * 1000) - 60) / 50 + 1) * 0.8f;
                     timeBetweenShots = startTimeBetweenShots;
                 }
             }
             else
             {
+                
                 projectileSpriteRenderer.flipX = true;
-                if (Input.GetMouseButtonDown(0))
+                //origin.transform.Translate(-origin.transform.position.x, origin.transform.position.y, origin.transform.position.z);
+                if (Mathf.RoundToInt(detector.loudnessValue * 1000) > 30)
                 {
-                    Instantiate(projectile, projectileOrigin.position, transform.rotation);
+                    GameObject currentProjectile = Instantiate(projectile, projectileOrigin.position, transform.rotation);
+
+                    currentProjectile.transform.parent = null;
+                    currentProjectile.GetComponent<Projectile>().speed *= ((Mathf.RoundToInt(detector.loudnessValue * 1000) - 50) / 50 + 1) * 0.8f;
                     timeBetweenShots = startTimeBetweenShots;
                 }
             }
