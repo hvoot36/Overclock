@@ -11,15 +11,17 @@ public class AudioDetection : MonoBehaviour
     // Start is called before the first frame update
     public int sampleWindow = 64;
     private AudioClip micClip;
+    public float loudnessValue;
     void Start()
     {
         microphoneToAudioClip();
+        Debug.Log(Microphone.devices[0]);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        loudnessValue = getLoudnessFromMic();
     }
 
     public void microphoneToAudioClip()

@@ -17,8 +17,7 @@ public class ScalingAudio : MonoBehaviour
 
     TMP_Text textBox;
 
-    public float loudnessSensibility = 100;
-    public float threshold = 0.1f;
+    public float loudnessSensitivity = 100;
     void Start()
     {
         textBox = GetComponent<TMP_Text>();
@@ -27,7 +26,8 @@ public class ScalingAudio : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float loudness = detector.getLoudnessFromMic() * loudnessSensibility;
+        float loudness = detector.loudnessValue * loudnessSensitivity;
+        
 
         
 
