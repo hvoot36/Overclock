@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using static UnityEngine.UI.Image;
 
 public class Player : MonoBehaviour
@@ -91,7 +92,8 @@ public class Player : MonoBehaviour
         while (true)
         {
             yield return wait;
-            Destroy(gameObject); break;
+            Destroy(gameObject);
+            SceneManager.LoadScene("gameover");
         }
     }
 }
