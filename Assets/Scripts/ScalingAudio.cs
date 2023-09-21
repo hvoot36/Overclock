@@ -27,7 +27,7 @@ public class ScalingAudio : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float loudness = detector.getLoudnessFromMic() * loudnessSensibility;
+        float loudness = detector.loudnessValue * loudnessSensibility;
 
         
 

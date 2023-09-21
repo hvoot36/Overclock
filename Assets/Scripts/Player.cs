@@ -39,6 +39,14 @@ public class Player : MonoBehaviour
     {
         movementX = Input.GetAxisRaw("Horizontal");
         movementY = Input.GetAxisRaw("Vertical");
+        if (Mathf.Abs(movementX) > Mathf.Abs(movementY))
+        {
+            movementY = 0;
+        }
+        else
+        {
+            movementX = 0;
+        }
         transform.position += movementForce * Time.deltaTime * new Vector3(movementX, movementY, 0);
     }
 
