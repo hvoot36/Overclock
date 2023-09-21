@@ -92,6 +92,22 @@ public class Enemy : MonoBehaviour
         return new Vector2(Mathf.Sin(angleInDegrees * Mathf.Deg2Rad), Mathf.Cos(angleInDegrees * Mathf.Deg2Rad));
     }
 
-    
+    public void enemyDestroy()
+    {
+        gameObject.GetComponent<Animator>().SetBool("death", true);
+        StartCoroutine(destroyEnemy());
+    }
+
+    IEnumerator destroyEnemy()
+    {
+        WaitForSeconds wait = new(1f);
+        while (true)
+        {
+            yield return wait;
+            Destroy(gameObject);
+        }
+    }
+
+
 
 }

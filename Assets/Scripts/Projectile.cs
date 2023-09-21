@@ -40,8 +40,7 @@ public class Projectile : MonoBehaviour
 
                 if (hitInformation.collider.CompareTag("Enemy"))
                 {
-                    hitInformation.collider.gameObject.GetComponent<Animator>().SetBool("death", true);
-                    StartCoroutine(destroyEnemy());
+                    hitInformation.collider.gameObject.GetComponent<Enemy>().enemyDestroy();
                 }
 
                 DestroyProjectile();
@@ -57,8 +56,7 @@ public class Projectile : MonoBehaviour
                 
                 if(hitInformation.collider.CompareTag("Enemy"))
                 {
-                    hitInformation.collider.gameObject.GetComponent<Animator>().SetBool("death", true);
-                    StartCoroutine(destroyEnemy());
+                    hitInformation.collider.gameObject.GetComponent<Enemy>().enemyDestroy();
                 }
 
                 DestroyProjectile();
@@ -67,15 +65,7 @@ public class Projectile : MonoBehaviour
             transform.Translate(speed * Time.deltaTime * Vector2.right);
         }
 
-        IEnumerator destroyEnemy()
-        {
-            WaitForSeconds wait = new(1f);
-            while (true)
-            {
-                yield return wait;
-                Destroy(hitInformation.collider.gameObject);
-            }
-        }
+        
         
         
     }
