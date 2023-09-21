@@ -13,14 +13,15 @@ public class Player : MonoBehaviour
     private float movementX;
     private float movementY;
 
-    private SpriteRenderer sr;
-    private Animator animator;
+    public SpriteRenderer sr;
+    public Animator animator;
 
     public GameObject shotOrigin;
     public Vector3 invertedPosition = new Vector3(-0.654f, -0.136f, 0.1017688f);
     private Vector3 rightPosition = new Vector3(0.654f, -0.136f, 0.1017688f);
 
     private string WALK_ANIMATION = "walk";
+    private string DEATH_ANIMATION = "dead";
 
 
     private void Awake()
@@ -75,6 +76,22 @@ public class Player : MonoBehaviour
         else
         {
             animator.SetBool(WALK_ANIMATION, false);
+        }
+    }
+
+    public void LoseCondition()
+    {
+        animator.SetBool(DEATH_ANIMATION, true);
+        StartCoroutine(destroyObj());
+    }
+
+    IEnumerator destroyObj()
+    {
+        WaitForSeconds wait = new(2f);
+        while (true)
+        {
+            yield return wait;
+            Destroy(gameObject); break;
         }
     }
 }

@@ -7,9 +7,9 @@ public class Enemy : MonoBehaviour
     // Start is called before the first frame update
 
     [SerializeField]
-    private float radius = 5f;
+    private float radius = 10f;
     [SerializeField]
-    private float angle = 45;
+    private float angle = 15;
 
     public LayerMask targetLayer;
     public LayerMask obstructionLayer;
@@ -49,6 +49,9 @@ public class Enemy : MonoBehaviour
                 if (!Physics2D.Raycast(transform.position, directionToTarget, distanceToTarget, obstructionLayer))
                 {
                     CanSeePlayer = true;
+                    Debug.Log("Can see player.");
+                    Player obj = targetGameObject.GetComponent<Player>();
+                    obj.LoseCondition();
                 }
                     
                 else
@@ -88,5 +91,7 @@ public class Enemy : MonoBehaviour
 
         return new Vector2(Mathf.Sin(angleInDegrees * Mathf.Deg2Rad), Mathf.Cos(angleInDegrees * Mathf.Deg2Rad));
     }
+
+    
 
 }
