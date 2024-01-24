@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 17856285}
   - component: {fileID: 17856287}
   - component: {fileID: 17856286}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 24964190}
   - component: {fileID: 24964192}
   - component: {fileID: 24964191}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -453,8 +453,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -478,7 +478,7 @@ GameObject:
   - component: {fileID: 27973032}
   - component: {fileID: 27973034}
   - component: {fileID: 27973033}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -608,7 +608,7 @@ GameObject:
   - component: {fileID: 29813830}
   - component: {fileID: 29813832}
   - component: {fileID: 29813831}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -713,8 +713,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -906,7 +906,7 @@ GameObject:
   - component: {fileID: 52045574}
   - component: {fileID: 52045576}
   - component: {fileID: 52045575}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1011,8 +1011,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1120,7 +1120,7 @@ GameObject:
   - component: {fileID: 65833954}
   - component: {fileID: 65833956}
   - component: {fileID: 65833955}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1502,7 +1502,7 @@ GameObject:
   - component: {fileID: 96345576}
   - component: {fileID: 96345578}
   - component: {fileID: 96345577}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1607,8 +1607,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1632,7 +1632,7 @@ GameObject:
   - component: {fileID: 101731737}
   - component: {fileID: 101731739}
   - component: {fileID: 101731738}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1737,8 +1737,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2014,7 +2014,7 @@ GameObject:
   - component: {fileID: 145381184}
   - component: {fileID: 145381186}
   - component: {fileID: 145381185}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2312,7 +2312,7 @@ GameObject:
   - component: {fileID: 162359835}
   - component: {fileID: 162359837}
   - component: {fileID: 162359836}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2417,8 +2417,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2442,7 +2442,7 @@ GameObject:
   - component: {fileID: 183227083}
   - component: {fileID: 183227085}
   - component: {fileID: 183227084}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2572,7 +2572,7 @@ GameObject:
   - component: {fileID: 185909387}
   - component: {fileID: 185909389}
   - component: {fileID: 185909388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2786,7 +2786,7 @@ GameObject:
   - component: {fileID: 195644382}
   - component: {fileID: 195644384}
   - component: {fileID: 195644383}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2891,8 +2891,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2916,7 +2916,7 @@ GameObject:
   - component: {fileID: 195747175}
   - component: {fileID: 195747177}
   - component: {fileID: 195747176}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3046,7 +3046,7 @@ GameObject:
   - component: {fileID: 214350866}
   - component: {fileID: 214350868}
   - component: {fileID: 214350867}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3176,7 +3176,7 @@ GameObject:
   - component: {fileID: 217212454}
   - component: {fileID: 217212456}
   - component: {fileID: 217212455}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_4 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3306,7 +3306,7 @@ GameObject:
   - component: {fileID: 221925044}
   - component: {fileID: 221925046}
   - component: {fileID: 221925045}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3588,7 +3588,7 @@ GameObject:
   - component: {fileID: 241976816}
   - component: {fileID: 241976818}
   - component: {fileID: 241976817}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3970,7 +3970,7 @@ GameObject:
   - component: {fileID: 317116805}
   - component: {fileID: 317116807}
   - component: {fileID: 317116806}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4100,7 +4100,7 @@ GameObject:
   - component: {fileID: 319615516}
   - component: {fileID: 319615518}
   - component: {fileID: 319615517}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4205,8 +4205,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 53534107, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5005,6 +5005,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 7598148210515435707, guid: 273a40d7790e31a43bd9bcc2fd36d24e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5105,7 +5109,7 @@ GameObject:
   - component: {fileID: 425006079}
   - component: {fileID: 425006081}
   - component: {fileID: 425006080}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5235,7 +5239,7 @@ GameObject:
   - component: {fileID: 430541159}
   - component: {fileID: 430541161}
   - component: {fileID: 430541160}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5340,8 +5344,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5365,7 +5369,7 @@ GameObject:
   - component: {fileID: 439854794}
   - component: {fileID: 439854796}
   - component: {fileID: 439854795}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5470,8 +5474,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5495,7 +5499,7 @@ GameObject:
   - component: {fileID: 443151494}
   - component: {fileID: 443151496}
   - component: {fileID: 443151495}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5600,8 +5604,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5709,7 +5713,7 @@ GameObject:
   - component: {fileID: 463209949}
   - component: {fileID: 463209951}
   - component: {fileID: 463209950}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Tiles_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6132,7 +6136,7 @@ GameObject:
   - component: {fileID: 484464160}
   - component: {fileID: 484464162}
   - component: {fileID: 484464161}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6262,7 +6266,7 @@ GameObject:
   - component: {fileID: 491279091}
   - component: {fileID: 491279093}
   - component: {fileID: 491279092}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6367,8 +6371,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6476,7 +6480,7 @@ GameObject:
   - component: {fileID: 498963030}
   - component: {fileID: 498963032}
   - component: {fileID: 498963031}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6581,8 +6585,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7518,7 +7522,7 @@ GameObject:
   - component: {fileID: 612841755}
   - component: {fileID: 612841757}
   - component: {fileID: 612841756}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_4 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7843,7 +7847,7 @@ GameObject:
   - component: {fileID: 662519779}
   - component: {fileID: 662519781}
   - component: {fileID: 662519780}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7973,7 +7977,7 @@ GameObject:
   - component: {fileID: 667513930}
   - component: {fileID: 667513932}
   - component: {fileID: 667513931}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8078,8 +8082,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8607,7 +8611,7 @@ GameObject:
   - component: {fileID: 723555530}
   - component: {fileID: 723555532}
   - component: {fileID: 723555531}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Tiles_2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8737,7 +8741,7 @@ GameObject:
   - component: {fileID: 732884147}
   - component: {fileID: 732884149}
   - component: {fileID: 732884148}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (84)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8951,7 +8955,7 @@ GameObject:
   - component: {fileID: 749065181}
   - component: {fileID: 749065183}
   - component: {fileID: 749065182}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9056,8 +9060,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9081,7 +9085,7 @@ GameObject:
   - component: {fileID: 752311163}
   - component: {fileID: 752311165}
   - component: {fileID: 752311164}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9186,8 +9190,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9410,7 +9414,7 @@ GameObject:
   - component: {fileID: 800715906}
   - component: {fileID: 800715908}
   - component: {fileID: 800715907}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9540,7 +9544,7 @@ GameObject:
   - component: {fileID: 806633892}
   - component: {fileID: 806633894}
   - component: {fileID: 806633893}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Tiles_2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9838,7 +9842,7 @@ GameObject:
   - component: {fileID: 840413826}
   - component: {fileID: 840413828}
   - component: {fileID: 840413827}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10052,7 +10056,7 @@ GameObject:
   - component: {fileID: 860284452}
   - component: {fileID: 860284454}
   - component: {fileID: 860284453}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10350,7 +10354,7 @@ GameObject:
   - component: {fileID: 880828400}
   - component: {fileID: 880828402}
   - component: {fileID: 880828401}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10564,7 +10568,7 @@ GameObject:
   - component: {fileID: 922509109}
   - component: {fileID: 922509111}
   - component: {fileID: 922509110}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (83)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10694,7 +10698,7 @@ GameObject:
   - component: {fileID: 923880990}
   - component: {fileID: 923880992}
   - component: {fileID: 923880991}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10908,7 +10912,7 @@ GameObject:
   - component: {fileID: 930283646}
   - component: {fileID: 930283648}
   - component: {fileID: 930283647}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11013,8 +11017,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11038,7 +11042,7 @@ GameObject:
   - component: {fileID: 946053315}
   - component: {fileID: 946053317}
   - component: {fileID: 946053316}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11143,8 +11147,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -11252,7 +11256,7 @@ GameObject:
   - component: {fileID: 969951116}
   - component: {fileID: 969951118}
   - component: {fileID: 969951117}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11634,7 +11638,7 @@ GameObject:
   - component: {fileID: 990666821}
   - component: {fileID: 990666823}
   - component: {fileID: 990666822}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11764,7 +11768,7 @@ GameObject:
   - component: {fileID: 998633567}
   - component: {fileID: 998633569}
   - component: {fileID: 998633568}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11894,7 +11898,7 @@ GameObject:
   - component: {fileID: 1003279978}
   - component: {fileID: 1003279980}
   - component: {fileID: 1003279979}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12192,7 +12196,7 @@ GameObject:
   - component: {fileID: 1050096982}
   - component: {fileID: 1050096984}
   - component: {fileID: 1050096983}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Tiles_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12297,8 +12301,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1122248633, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -12490,7 +12494,7 @@ GameObject:
   - component: {fileID: 1060800023}
   - component: {fileID: 1060800025}
   - component: {fileID: 1060800024}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12620,7 +12624,7 @@ GameObject:
   - component: {fileID: 1073570653}
   - component: {fileID: 1073570655}
   - component: {fileID: 1073570654}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12750,7 +12754,7 @@ GameObject:
   - component: {fileID: 1074103850}
   - component: {fileID: 1074103852}
   - component: {fileID: 1074103851}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12964,7 +12968,7 @@ GameObject:
   - component: {fileID: 1087414908}
   - component: {fileID: 1087414910}
   - component: {fileID: 1087414909}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13094,7 +13098,7 @@ GameObject:
   - component: {fileID: 1094493598}
   - component: {fileID: 1094493600}
   - component: {fileID: 1094493599}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13476,7 +13480,7 @@ GameObject:
   - component: {fileID: 1125552690}
   - component: {fileID: 1125552692}
   - component: {fileID: 1125552691}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13945,6 +13949,7 @@ GameObject:
   - component: {fileID: 1175033236}
   - component: {fileID: 1175033240}
   - component: {fileID: 1175033241}
+  - component: {fileID: 1175033242}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -14122,6 +14127,33 @@ MonoBehaviour:
   origin: {fileID: 760920712}
   startTimeBetweenShots: 0.5
   minLoudnessValue: 10
+--- !u!50 &1175033242
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1175033235}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1177150026
 GameObject:
   m_ObjectHideFlags: 0
@@ -14133,7 +14165,7 @@ GameObject:
   - component: {fileID: 1177150027}
   - component: {fileID: 1177150029}
   - component: {fileID: 1177150028}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14347,7 +14379,7 @@ GameObject:
   - component: {fileID: 1202063653}
   - component: {fileID: 1202063655}
   - component: {fileID: 1202063654}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14452,8 +14484,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -14561,7 +14593,7 @@ GameObject:
   - component: {fileID: 1233763713}
   - component: {fileID: 1233763715}
   - component: {fileID: 1233763714}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14666,8 +14698,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -14947,7 +14979,7 @@ GameObject:
   - component: {fileID: 1253082839}
   - component: {fileID: 1253082841}
   - component: {fileID: 1253082840}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15329,7 +15361,7 @@ GameObject:
   - component: {fileID: 1261481055}
   - component: {fileID: 1261481057}
   - component: {fileID: 1261481056}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15434,8 +15466,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -15684,6 +15716,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 7598148210515435707, guid: 273a40d7790e31a43bd9bcc2fd36d24e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15868,7 +15904,7 @@ GameObject:
   - component: {fileID: 1340504160}
   - component: {fileID: 1340504162}
   - component: {fileID: 1340504161}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16166,7 +16202,7 @@ GameObject:
   - component: {fileID: 1406432760}
   - component: {fileID: 1406432762}
   - component: {fileID: 1406432761}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16464,7 +16500,7 @@ GameObject:
   - component: {fileID: 1435019230}
   - component: {fileID: 1435019232}
   - component: {fileID: 1435019231}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16678,7 +16714,7 @@ GameObject:
   - component: {fileID: 1442529553}
   - component: {fileID: 1442529555}
   - component: {fileID: 1442529554}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16808,7 +16844,7 @@ GameObject:
   - component: {fileID: 1445815840}
   - component: {fileID: 1445815842}
   - component: {fileID: 1445815841}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16913,8 +16949,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -17190,7 +17226,7 @@ GameObject:
   - component: {fileID: 1463129170}
   - component: {fileID: 1463129172}
   - component: {fileID: 1463129171}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17295,8 +17331,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -17320,7 +17356,7 @@ GameObject:
   - component: {fileID: 1472031710}
   - component: {fileID: 1472031712}
   - component: {fileID: 1472031711}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17450,7 +17486,7 @@ GameObject:
   - component: {fileID: 1481643240}
   - component: {fileID: 1481643242}
   - component: {fileID: 1481643241}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17580,7 +17616,7 @@ GameObject:
   - component: {fileID: 1493281855}
   - component: {fileID: 1493281857}
   - component: {fileID: 1493281856}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17685,8 +17721,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -17878,7 +17914,7 @@ GameObject:
   - component: {fileID: 1499778128}
   - component: {fileID: 1499778130}
   - component: {fileID: 1499778129}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18092,7 +18128,7 @@ GameObject:
   - component: {fileID: 1514515307}
   - component: {fileID: 1514515309}
   - component: {fileID: 1514515308}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18306,7 +18342,7 @@ GameObject:
   - component: {fileID: 1542809342}
   - component: {fileID: 1542809344}
   - component: {fileID: 1542809343}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18604,7 +18640,7 @@ GameObject:
   - component: {fileID: 1582872393}
   - component: {fileID: 1582872395}
   - component: {fileID: 1582872394}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19322,7 +19358,7 @@ GameObject:
   - component: {fileID: 1652267693}
   - component: {fileID: 1652267695}
   - component: {fileID: 1652267694}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19452,7 +19488,7 @@ GameObject:
   - component: {fileID: 1654640509}
   - component: {fileID: 1654640511}
   - component: {fileID: 1654640510}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19666,7 +19702,7 @@ GameObject:
   - component: {fileID: 1675724964}
   - component: {fileID: 1675724966}
   - component: {fileID: 1675724965}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19771,8 +19807,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -20216,7 +20252,7 @@ GameObject:
   - component: {fileID: 1718377203}
   - component: {fileID: 1718377205}
   - component: {fileID: 1718377204}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20346,7 +20382,7 @@ GameObject:
   - component: {fileID: 1732554220}
   - component: {fileID: 1732554222}
   - component: {fileID: 1732554221}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_4 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20696,7 +20732,7 @@ GameObject:
   - component: {fileID: 1775985809}
   - component: {fileID: 1775985811}
   - component: {fileID: 1775985810}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20801,8 +20837,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -21078,7 +21114,7 @@ GameObject:
   - component: {fileID: 1798200029}
   - component: {fileID: 1798200031}
   - component: {fileID: 1798200030}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21292,7 +21328,7 @@ GameObject:
   - component: {fileID: 1810440342}
   - component: {fileID: 1810440344}
   - component: {fileID: 1810440343}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21494,7 +21530,7 @@ GameObject:
   - component: {fileID: 1813400096}
   - component: {fileID: 1813400098}
   - component: {fileID: 1813400097}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21599,8 +21635,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -21708,7 +21744,7 @@ GameObject:
   - component: {fileID: 1835876301}
   - component: {fileID: 1835876303}
   - component: {fileID: 1835876302}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21922,7 +21958,7 @@ GameObject:
   - component: {fileID: 1845212824}
   - component: {fileID: 1845212826}
   - component: {fileID: 1845212825}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22027,8 +22063,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -22211,7 +22247,7 @@ GameObject:
   - component: {fileID: 1862993993}
   - component: {fileID: 1862993995}
   - component: {fileID: 1862993994}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22593,7 +22629,7 @@ GameObject:
   - component: {fileID: 1899349060}
   - component: {fileID: 1899349062}
   - component: {fileID: 1899349061}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22807,7 +22843,7 @@ GameObject:
   - component: {fileID: 1966689723}
   - component: {fileID: 1966689725}
   - component: {fileID: 1966689724}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22912,8 +22948,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -22937,7 +22973,7 @@ GameObject:
   - component: {fileID: 1994271345}
   - component: {fileID: 1994271347}
   - component: {fileID: 1994271346}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23042,8 +23078,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -23151,7 +23187,7 @@ GameObject:
   - component: {fileID: 2021043244}
   - component: {fileID: 2021043246}
   - component: {fileID: 2021043245}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23256,8 +23292,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -23365,7 +23401,7 @@ GameObject:
   - component: {fileID: 2040858436}
   - component: {fileID: 2040858438}
   - component: {fileID: 2040858437}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23663,7 +23699,7 @@ GameObject:
   - component: {fileID: 2095338046}
   - component: {fileID: 2095338048}
   - component: {fileID: 2095338047}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23877,7 +23913,7 @@ GameObject:
   - component: {fileID: 2096742786}
   - component: {fileID: 2096742788}
   - component: {fileID: 2096742787}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24343,7 +24379,7 @@ GameObject:
   - component: {fileID: 2137890819}
   - component: {fileID: 2137890821}
   - component: {fileID: 2137890820}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (85)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24473,7 +24509,7 @@ GameObject:
   - component: {fileID: 2143419546}
   - component: {fileID: 2143419548}
   - component: {fileID: 2143419547}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tiles_3 (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24578,8 +24614,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1319892887
-  m_SortingLayer: 1
+  m_SortingLayerID: 1045476517
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 1242218596, guid: 7f81d639a8701f6499a72c15268ddaa3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -24659,6 +24695,10 @@ PrefabInstance:
     - target: {fileID: 7598148210515435707, guid: 273a40d7790e31a43bd9bcc2fd36d24e, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7598148210515435707, guid: 273a40d7790e31a43bd9bcc2fd36d24e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
